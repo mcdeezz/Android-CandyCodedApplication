@@ -3,6 +3,7 @@ package com.pluralsight.candycoded;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
@@ -23,11 +24,20 @@ public class InfoActivity extends AppCompatActivity {
 
     }
 
+
+
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
 
+    public void GoToAddress(View view) {
+
+    }
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
+    public void MakeACall(View view) {
+
+    }
+
 }
